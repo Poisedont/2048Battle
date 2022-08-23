@@ -1,0 +1,27 @@
+#!/bin/bash
+echo !!! Start build on MAC
+
+CUR_DIR=$(dirname $0)
+
+TOOL_PATH=$CUR_DIR/exportExcel/ExportExcel.dll
+UNITY_DATA=$CUR_DIR/../Assets/Resources/database
+COMMON_CONFIG=common.txt
+
+if [ -f $COMMON_CONFIG ]; then
+    . $COMMON_CONFIG
+
+    pushd $CUR_DIR
+
+    dotnet $TOOL_PATH $INPUT_FILE_BASH
+
+    echo moving files to $UNITY_DATA
+    if [ ! -d $UNITY_DATA ]; then
+        mkdir -p $UNITY_DATA;
+    fi
+    mv *.bytes $UNITY_DATA
+
+    popd
+
+else
+    echo !!! missing $COMMON_CONFIG
+fi

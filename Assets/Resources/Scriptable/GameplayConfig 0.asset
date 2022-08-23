@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aecf065f829ccc74c8b7bc02414eb678, type: 3}
+  m_Name: GameplayConfig 0
+  m_EditorClassIdentifier: 
+  timeOpponentGenerate:
+  - times: 30
+    quantity: 10
+    quantityRatioEachTurn:
+    - 75
+    - 25
+    levelRangeRatio:
+    - 20
+    - 75
+    - 5
+  - times: 60
+    quantity: 15
+    quantityRatioEachTurn:
+    - 60
+    - 35
+    - 5
+    levelRangeRatio:
+    - 10
+    - 55
+    - 25
+    - 10
+  - times: 60
+    quantity: 15
+    quantityRatioEachTurn:
+    - 55
+    - 40
+    - 5
+    levelRangeRatio:
+    - 0
+    - 15
+    - 50
+    - 20
+    - 10
+    - 5
+  - times: 60
+    quantity: 15
+    quantityRatioEachTurn:
+    - 55
+    - 40
+    - 5
+    levelRangeRatio:
+    - 0
+    - 15
+    - 30
+    - 30
+    - 15
+    - 5
+    - 5
+  - times: 90
+    quantity: 15
+    quantityRatioEachTurn:
+    - 50
+    - 45
+    - 5
+    levelRangeRatio:
+    - 0
+    - 5
+    - 15
+    - 30
+    - 30
+    - 10
+    - 6
+    - 3
+    - 1
+  - times: 90
+    quantity: 15
+    quantityRatioEachTurn:
+    - 50
+    - 45
+    - 5
+    levelRangeRatio:
+    - 0
+    - 0
+    - 15
+    - 30
+    - 30
+    - 10
+    - 8
+    - 5
+    - 2
+  - times: 90
+    quantity: 15
+    quantityRatioEachTurn:
+    - 50
+    - 45
+    - 5
+    levelRangeRatio:
+    - 0
+    - 0
+    - 5
+    - 25
+    - 30
+    - 15
+    - 12
+    - 8
+    - 5
+  - times: 90
+    quantity: 15
+    quantityRatioEachTurn:
+    - 50
+    - 45
+    - 5
+    levelRangeRatio:
+    - 0
+    - 0
+    - 0
+    - 20
+    - 30
+    - 20
+    - 15
+    - 10
+    - 5
+  m_rateSpawnAllyLv2: 12
+  m_rateSpawnGift: 0

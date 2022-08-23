@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0fff9e887856d40a46e5b75a085a19, type: 3}
+  m_Name: Skill Blocker
+  m_EditorClassIdentifier: 
+  BoosterId: B4
+  type: 0
+  rangeType: 0
+  range: 1
+  coolDown: 5
+  icon: {fileID: 21300030, guid: 2dc7ef729cd7d31438b24d0f91895adb, type: 3}

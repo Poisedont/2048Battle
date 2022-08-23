@@ -1,0 +1,22 @@
+/*This is generate template for export config.*/
+{
+  "Name": "default",
+  "StartRow": 2,
+  "StartColumn": 1,
+  "Format": "bytes",
+  "ExcludeSheets": [],
+  "SheetConfigs": {
+    "sheetName": {
+      "StartRow": 1,
+      "StartColumn": 1
+    }
+  },
+  "JsonConfig": {
+    "AllInOneFile": false,
+    "GroupByPrefix": true,
+    "SkipEmptyCell": false,
+    "Indented": true,
+    "KeyAsArray": []
+  },
+  "DebugLevel": 0
+}
